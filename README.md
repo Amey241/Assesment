@@ -74,6 +74,10 @@ Early baseline: 18/20. The first run omitted an explicit `shipped` status for an
 
 Run `python app.py --debug` and record the following 2–4 minute flow for the submission GIF/video: a return-window question, `ORD-1007` lookup, international-shipping then Canada follow-up, the Breeze Tumbler conflict, and `python evaluation/run_evaluation.py`. The CLI presents answers, sources, and any human-handoff recommendation directly.
 
+### Walkthrough video
+
+[Watch the project walkthrough on Google Drive](https://drive.google.com/file/d/1nrFxpbPOteYw6S2OC0MJsspk9tPncNVE/view?usp=sharing)
+
 ## AI tooling disclosure
 
 Codex was used to inspect the supplied corpus, implement the standard-library application, and generate the deterministic regression harness. One incomplete suggestion caught during development was a Unix-only `strftime('%-d')` date format; it failed on Windows and was replaced with portable numeric formatting.
